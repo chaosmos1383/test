@@ -1,0 +1,238 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>*Welcome to Bernard Werber Fan Site*</title>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <style>
+        *{
+            margin : 0px;
+            padding: 0px;
+            
+            text-align: center;
+        }
+        .header{
+            width: 100%;
+        }
+        #logo{
+            position: relative;
+            float: left;
+            margin-left:140px;
+            padding-top: 12px;
+            left: 125px;
+            top: 1px;
+
+        }
+        .headerMenu{
+            background:#24292e;
+            list-style-type: none;
+            padding: 10px;
+
+        }
+        .menu{
+            display: inline-block;
+            position: relative;
+            right: 60px;
+            top: 8px;
+        }
+        .menu li{
+            display: inline-block;
+            color: white;
+            font-size: 16px;
+            padding: 5px;
+            padding-bottom: 20px;
+            margin-right: 20px;
+        }
+        .menu a{
+            text-decoration: none;
+
+        }
+        .menu a:visited{
+            color: white;
+        }
+        .searchBar,.sign{
+            position: relative;
+            display: inline-block;
+            height: 30px;
+            padding-left: 0px;
+            padding-right: 10px;
+            top: 7px;
+            
+        }
+        .searchBar input{
+            position: relative;
+            display: inline-block;
+            height: 30px;
+            padding-left: 0px;
+            padding-right: 10px;
+            top: 0px;
+            
+        }
+        .sign{
+            display: inline-block;
+        }
+        .sign p{
+            display: inline-block;
+            position: relative;
+            left: 20px;
+        }
+        .sign a{
+            text-decoration: none;
+
+        }
+        .sign a:visited{
+            color: white;
+        }
+        .sign span{
+            color: darkgray;
+            font-weight: 2px;
+            position: relative;
+            left: 20px;
+        }
+
+        .article{
+            background-image: url(image/bgmain.jpg);
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 95%;
+            width: 100%;
+            text-align: center;
+        }
+        fieldset{
+            color: dark;
+            background: white;
+            height: 550px;
+            width: 600px;
+            position: relative;
+            border: 2px solid black;
+            left: 450px;
+            top: 30px;
+            text-align: left;
+
+        }
+        fieldset input{
+            border-radius: 3px;
+            height: 40px;
+            background: rgb(252, 249, 249);
+            border-color: lightgreen;
+            text-align: left;
+        }
+        fieldset input:hover{
+            background: #c6d880;
+        }
+        legend{
+                 background:rgb(255, 255, 255);
+                color: rgb(12, 121, 158);
+                font-size: 30px;
+                border: 2px solid rgb(0, 77, 128);
+            }
+        #name{
+            margin-right: 70px;
+        }
+        #name,#password{
+            margin-left: 20px;
+            font-weight: 700;
+            
+        }
+
+        #tz{
+            position: relative;
+            left: 160px;
+            top: 20px;
+            
+        }
+        #tz textarea{
+            width: 260px;
+            height: 250px;
+            border: 1px double black;
+        }
+
+        button{
+            position: relative;
+            display: inline;
+            background-color: #ffffff;
+            border:1px solid #dedede;
+            cursor: pointer;
+            padding: 5px 10px 6px 7px;
+            left: 235px;
+        }
+        button:hover{
+            background-color: #e6efc2;
+            border: 1px solid #c6d880;
+            color: #529215;
+        }
+        .footer{
+            position: relative;
+            width: 100%;
+            height: 20%;
+            background-color: #24292e;
+            margin-bottom: 0px;
+        }
+        .footer h2,p{
+            position: relative;
+            color: white;
+            text-align: left;
+            font-size: 15px;
+            right:1000px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div  id="logo">
+                <a href="mainPage.html" ><img src="image/logo.png" width="52" height="42" style="border:1px solid white; border-radius:30%"></a>
+                </div>
+        <ul class="headerMenu">
+            <div class="menu">
+                <li><a href="IntroPage.html">페이지소개</a></li>
+                <li><a href="Bernard.html">베르베르 작가</a></li>
+                <li><a href="bookIntro.html">책 소개</a></li>
+                <li><a href="community.html">토론방</a></li>
+            </div>
+            <div class="searchBar">
+                <label for="serchbar"></label>
+                <input type="search" size="40" placeholder="Search GitHub">
+            </div>
+            <div class="sign">
+                <p><a href="">Sign In</a></p>
+                <span>or</span>
+                <p><a href="">Sign Up</a></p>
+            </div>
+       </ul>
+    </div>
+
+       <article class="article">
+            <fieldset>
+                    <legend>당신의 모든 상상</legend> <br> <br>
+                    <label for="name" id="name">닉네임 : </label>
+                    <input type = "text" name="name" size = "40" id="nic_name" placeholder=" 닉네임을 입력해주세요">
+                    <br> <br>
+                    <label for="password" id="password">게시글 패스워드 : </label>
+                <input type = "password" name="pass" size = "40" id="pass"placeholder=" 패스워드는 4글자 이상 입력해주세요..">
+                    <br>
+                <label for="tz" id="tz">
+                        <span>당신의 상상을!</span><br>
+                        <textarea placeholder="마음껏 펼쳐보세요"></textarea><br>
+                    </label>
+                    <br><br>
+                    <button type="submit">업로드</button>
+                    <button type="submit"><a href="community.html">취소</a></button>
+
+                </fieldset>
+    </div>
+       </article>
+
+       <footer class="footer">
+        <div>
+            <h2>Contact us</h2>
+            <p>tel : 012-2345-5678</p>
+            <p>대표 : O O O</p>
+        </div>
+
+       </footer>
+    
+</body>
+</html>

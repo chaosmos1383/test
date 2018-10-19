@@ -1,0 +1,288 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>*Welcome to Bernard Werber Fan Site*</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script&amp;subset=korean" rel="stylesheet">
+    <style>
+        *{
+            margin : 0px;
+            padding: 0px;
+            
+            text-align: center;
+        }
+        .header{
+            width: 100%;
+        }
+        #logo{
+            position: relative;
+            float: left;
+            margin-left:140px;
+            padding-top: 12px;
+            left: 125px;
+            top: 1px;
+
+        }
+        .headerMenu{
+            background:#24292e;
+            list-style-type: none;
+            padding: 10px;
+
+        }
+        .menu{
+            display: inline-block;
+            position: relative;
+            right: 60px;
+            top: 8px;
+        }
+        .menu li{
+            display: inline-block;
+            color: white;
+            font-size: 16px;
+            padding: 5px;
+            padding-bottom: 20px;
+            margin-right: 20px;
+        }
+        .menu a{
+            text-decoration: none;
+
+        }
+        .menu a:visited{
+            color: white;
+        }
+        .searchBar,.sign{
+            position: relative;
+            display: inline-block;
+            height: 30px;
+            padding-left: 0px;
+            padding-right: 10px;
+            top: 7px;
+            
+        }
+        .searchBar input{
+            display: inline-block;
+            border-radius: 3px;
+            background:lightgray;
+            color: white;
+            text-align: left;
+            height: 40px;
+            
+        }
+        .sign{
+            display: inline-block;
+        }
+        .sign p{
+            display: inline-block;
+        }
+        .sign a{
+            text-decoration: none;
+
+        }
+        .sign a:visited{
+            color: white;
+        }
+        .sign span{
+            color: darkgray;
+            font-weight: 2px;
+            position: relative;
+            left: 20px;
+        }
+
+        .article{
+            background-image: url(image/bgmain.jpg);
+            background-size: 100% 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 80%;
+            width: 100%;
+        }
+        .subarticle{
+            width : 700px;
+        }
+
+        
+        .center{
+            position: relative;
+            left: 300px;
+            top: 130px;
+        }
+        .center h3{
+            color: white;
+            font-size: 64px;
+            width: 600px;
+            padding-left: 5px;
+            padding-right: 5px;
+            text-align: left;
+            padding-bottom: 10px;
+            line-height: 1.2em;
+        }
+        .center p{
+            text-align: left;
+            font-size: 21px;
+            color: rgba(255,255,255,0.6)
+
+        }
+        .center p span{
+            color: white;
+            border-bottom: 1px solid darkgray;
+            text-decoration: none;
+
+        }
+        .center p span a:hover{
+           border-bottom : 1px solid white;
+
+        }
+        .center p span a:visited{
+            color: white;
+        }
+        .loginForm{
+            display: inline-block;
+            position: relative;
+            border: 1px solid white;
+            left: 330px;
+            bottom: 250px;
+            width: 383px;
+            height: 473px;
+            background: white;
+            border-radius: 3px;
+            background:#26292c;
+        }
+        .loginForm h3{
+            color: white;
+            font-size: 30px;
+            position: relative;
+            top: 30px;
+        }
+        .loginForm p{
+            color: white;
+            text-align: left;
+            position: relative;
+            top: 80px;
+            right: 80px;
+            margin: 0;
+        }
+        .loginForm input{
+            width: 300px;
+            height: 40px;
+            border-radius: 3px;
+            text-align: left;
+            position: relative;
+            top: 55px;
+            margin-top: 30px;
+
+        }
+        .loginForm input:hover{
+            border : 4px solid lightgreen;
+        }
+        #passwordWarning{
+            position: relative;
+            right: 30px;
+            font-size: 12px;
+            color: #6a737d;
+        }
+        #SignUpfor{
+            background: rgb(81, 173, 81);
+            position: relative;
+            text-align: center;
+            border: 1px solid lightgreen;
+            border-radius: 3px;
+            width: 300px;
+            height: 40px;
+            padding-top: 8px;
+            margin-top: 10px;
+            left: 40px;
+            font-size: 20px;
+        }
+        #SignUpfor a{
+            text-decoration: none;
+        }
+        #Signupfot a:visited{
+            color: white;
+        }
+        #signup{
+            color: white;
+            background: rgb(75, 184, 75);
+        }
+        .footer{
+            width: 100%;
+            height: 20%;
+            background-color: #24292e;
+        }
+        .footer h2,p{
+            position: relative;
+            color: white;
+            text-align: left;
+            left: 20px;
+            font-size: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div  id="logo">
+                <a href="mainPage.html" ><img src="image/logo.png" width="52" height="42" style="border:1px solid white; border-radius:30%"></a>
+                </div>
+        <ul class="headerMenu">
+            <div class="menu">
+                <li><a href="IntroPage.html">페이지소개</a></li>
+                <li><a href="Bernard.html">베르베르 작가</a></li>
+                <li><a href="bookIntro.html">책 소개</a></li>
+                <li><a href="community.html">토론방</a></li>
+            </div>
+            <div class="searchBar">
+                <label for="serchbar"></label>
+                <input type="search" size="40" placeholder="Search Books">
+            </div>
+            <div class="sign">
+                <p><a href="">Sign In</a></p>
+                <span>or</span>
+                <p><a href="">Sign Up</a></p>
+            </div>
+       </ul>
+    </div>
+
+       <article class="article">
+            <ul class="subarticle">
+                    <div class="center">
+                        <h3>Imagine<br>베르나르 베르베르 팬사이트*</h3>
+                        <p>당신이 언젠가 한번쯤 해보았을 <span><a href ="">상상</a></span> 과 <span><a href ="">꿈</a></span><br>우리와 함께 베르나르, 그의 책을 통해 대화하자</p>
+                    </div>
+                </ul>
+                <ul class="loginForm">
+                <ul>
+                    <h3>*간편등록하기*</h3>
+                </ul>
+                <ul>
+                    <p>상상력이 넘치는 당신의 닉네임</p>
+                    <label for="login"></label>
+                    <input type="text" size= 46px  placeholder=" username">
+                </ul>
+                <ul>
+                    <p>당신의 E-mail</p>
+                    <label for="Email"></label>
+                    <input type="email" size= 46px height="20px" placeholder=" you@example.com" ㄴ>
+                </ul>
+                <ul>
+                <p>누구도 넘보지 못할 패스워드</p>
+                    <label for="password"></label>
+                    <input type="password" size= 46px height="20px"  placeholder=" Create a password">
+                </ul>
+                <p id="passwordWarning">패스워드의 길이는 최소 7글자로 해주세요!<br></p>
+                <p id="SignUpfor"><a href="">Sign up for Bernard</a></p>
+                </ul>
+               
+        </ul>
+       </article>
+
+       <footer class="footer">
+        <div>
+            <h2>Contact us</h2>
+            <p>tel : 012-2345-5678</p>
+            <p>대표 : O O O</p>
+        </div>
+
+       </footer>
+    
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>*Welcome to Bernard Werber Fan Site*</title>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+    <style>
+        *{
+            margin : 0px;
+            padding: 0px;
+            
+            text-align: center;
+        }
+        .header{
+            width: 100%;
+        }
+        #logo{
+            position: relative;
+            float: left;
+            margin-left:140px;
+            padding-top: 12px;
+            left: 125px;
+            top: 1px;
+
+        }
+        .headerMenu{
+            background:#24292e;
+            list-style-type: none;
+            padding: 10px;
+
+        }
+        .menu{
+            display: inline-block;
+            position: relative;
+            right: 60px;
+            top: 8px;
+        }
+        .menu li{
+            display: inline-block;
+            color: white;
+            font-size: 16px;
+            padding: 5px;
+            padding-bottom: 20px;
+            margin-right: 20px;
+        }
+        .menu a{
+            text-decoration: none;
+
+        }
+        .menu a:visited{
+            color: white;
+        }
+        .searchBar,.sign{
+            position: relative;
+            display: inline-block;
+            height: 30px;
+            padding-left: 0px;
+            padding-right: 10px;
+            top: 7px;
+            
+        }
+        .searchBar input{
+            display: inline-block;
+            border-radius: 3px;
+            background:lightgray;
+            color: white;
+            text-align: left;
+            height: 40px;
+            
+        }
+        .sign{
+            display: inline-block;
+        }
+        .sign p{
+            display: inline-block;
+        }
+        .sign a{
+            text-decoration: none;
+
+        }
+        .sign a:visited{
+            color: white;
+        }
+        .sign span{
+            color: darkgray;
+            font-weight: 2px;
+            position: relative;
+            left: 20px;
+        }
+
+        .article{
+           background: darkgray;
+            height: 80%;
+            width: 100%;
+        }
+        #table{
+            background: white;
+            position: relative;
+            left: 570px;
+            border: 1px solid black;
+            font-size: 24px;
+        }
+        #table th,td{
+            border: 1px solid black;
+            
+        }
+        .asideMenu{
+            position: relative;
+            bottom: 597px;
+            text-align: left;
+            background: #273c52;
+            width: 300px;
+            height: 597px;
+
+        }
+        .asideMenu li,h2{
+            color: white;
+            font-size: 40px;
+        }
+        .asideMenu a{
+            text-decoration: none;
+            color: white;
+        }
+        .asidemenu li{
+            border: 1px dotted white;
+            position: relative;
+            top: 30px;
+        }
+        .asidemenu li:hover{
+            background: lightgreen;
+        }
+        .asideMenu h2{
+            font-family: 'Great Vibes', cursive;
+            font-size: 50px;
+        }
+        
+      
+        .footer{
+            position: relative;
+            bottom: 600px;
+            width: 100%;
+            height: 20%;
+            background-color: #24292e;
+        }
+        .footer h2,p{
+            position: relative;
+            color: white;
+            text-align: left;
+            left: 20px;
+            font-size: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div  id="logo">
+                <a href="mainPage.html" ><img src="image/logo.png" width="52" height="42" style="border:1px solid white; border-radius:30%"></a>
+                </div>
+        <ul class="headerMenu">
+            <div class="menu">
+                <li><a href="IntroPage.html">페이지소개</a></li>
+                <li><a href="Bernard.html">베르베르 작가</a></li>
+                <li><a href="bookIntro.html">책 소개</a></li>
+                <li><a href="community.html">토론방</a></li>
+            </div>
+            <div class="searchBar">
+                <label for="serchbar"></label>
+                <input type="search" size="40" placeholder="Search Books">
+            </div>
+            <div class="sign">
+                <p><a href="">Sign In</a></p>
+                <span>or</span>
+                <p><a href="">Sign Up</a></p>
+            </div>
+       </ul>
+    </div>
+
+       <article class="article">
+           <table id="table">
+               <th>글 번호</th><th>글 작성일</th><th>글 제목</th><th>작성자</th><th>조회수</th>
+               <tr>
+                   <td>15</td><td>10.01</td><td>개미를 읽고서..</td><td>자바맨</td><td>8</td> 
+                </tr>
+                <tr>
+                   <td>14</td><td>10.02</td><td>님들은 어떻게 생각함</td><td>H맨</td><td>102</td>
+                </tr>
+                <tr>
+                   <td>13</td><td>10.02</td><td>파피용 재밌당</td><td>C군</td><td>44</td>
+                   </tr>
+                   <tr>
+                   <td>12</td><td>10.04</td><td>나무를 읽고서..</td><td>D아저씨</td><td>23</td>
+                   </tr>
+                   <tr>
+                   <td>11</td><td>10.16</td><td>활동하는 사람이 적다</td><td>루피</td><td>1</td>
+                     </tr>
+                     <tr>
+                            <td>10</td><td>10.01</td><td>개미를 읽고서..</td><td>자바맨</td><td>8</td> 
+                         </tr>
+                         <tr>
+                            <td>9</td><td>10.02</td><td>님들은 어떻게 생각함</td><td>H맨</td><td>102</td>
+                         </tr>
+                         <tr>
+                            <td>8</td><td>10.02</td><td>파피용 재밌당</td><td>C군</td><td>44</td>
+                            </tr>
+                            <tr>
+                            <td>7</td><td>10.04</td><td>나무를 읽고서..</td><td>D아저씨</td><td>23</td>
+                            </tr>
+                            <tr>
+                            <td>6</td><td>10.16</td><td>활동하는 사람이 적다</td><td>루피</td><td>1</td>
+                              </tr>
+                              <tr>
+                                    <td>5</td><td>10.01</td><td>개미를 읽고서..</td><td>자바맨</td><td>8</td> 
+                                 </tr>
+                                 <tr>
+                                    <td>4</td><td>10.02</td><td>님들은 어떻게 생각함</td><td>H맨</td><td>102</td>
+                                 </tr>
+                                 <tr>
+                                    <td>3</td><td>10.02</td><td>파피용 재밌당</td><td>C군</td><td>44</td>
+                                    </tr>
+                                    <tr>
+                                    <td>2</td><td>10.04</td><td>나무를 읽고서..</td><td>D아저씨</td><td>23</td>
+                                    </tr>
+                                    <tr>
+                                    <td>1</td><td>10.16</td><td>활동하는 사람이 적다</td><td>루피</td><td>1</td>
+                                      </tr>
+           </table>
+       </article>
+    <aside>
+        <ul class="asideMenu">
+            <h2>Discuss</h2>
+            <li><a href="textArea.html">개미</a></li>
+            <li><a href ="textArea.html">  신  </a></li>
+            <li><a href ="textArea.html">나무</a></li>
+            <li><a href ="textArea.html">파피용</a></li>
+            <li><a href ="textArea.html">그외 서적</a><li>
+        </ul>
+       </aside>
+
+       <footer class="footer">
+        <div class="footerblock">
+            <h2>Contact us</h2>
+            <p>tel : 012-2345-5678</p>
+            <p>대표 : O O O</p>
+        </div>
+
+       </footer>
+    
+</body>
+</html>
